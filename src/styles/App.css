@@ -1,0 +1,39 @@
+.red-border {
+  border: 2px solid red;
+}
+.blue-border {
+  border: 2px solid blue;
+}
+.aqua-border {
+  border: 2px solid aqua;
+}
+.bounce {
+  animation: shake 0.1s linear 10;
+  border: 2px solid rgb(207, 110, 110);
+  background: rgb(187, 75, 75);
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.hiddens {
+  transition: height 1s;
+  height: 0px;
+}
+.visible {
+  height: 160px;
+}
